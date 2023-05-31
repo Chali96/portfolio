@@ -1,7 +1,10 @@
-import leaveimg from './images/leaveimg.jpeg'
-import { Link } from 'react-router-dom';
+import leaveimg from './images/leaveimg.jpeg';
+import { Link, useLocation } from 'react-router-dom';
+
 
 const Home = () => {
+    const location = useLocation();
+
     return (
       <div className="container">
         <div className="background-image"> 
@@ -13,10 +16,10 @@ const Home = () => {
             </h2>
 
             <div className="overlay-content">
-          <Link to="/" className="link">Home</Link>
-          <Link to="/page2" className="link">About Me</Link>
-          <Link to="/page3" className="link">Projects</Link>
-          <Link to="/page3" className="link">Contact Me</Link>
+          <Link to="/" className={`link ${location.pathname === '/' ? 'active-link' : ''}`}>Home</Link>
+          <Link to="/page2" className={`link ${location.pathname === '/page1' ? 'active-link' : ''}`}>About Me</Link>
+          <Link to="/page3" className={`link ${location.pathname === '/page1' ? 'active-link' : ''}`}>Projects</Link>
+          <Link to="/page3" className={`link ${location.pathname === '/page1' ? 'active-link' : ''}`}>Contact Me</Link>
 
           {/* Additional links, text, and icon links */}
         </div>

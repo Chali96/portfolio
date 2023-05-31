@@ -39,8 +39,9 @@ font-family: 'Antonio';
 font-style: normal;
 font-weight: 400;
 font-size: 48px;
-line-height: 50px;
+line-height: 45px;
 color: #132F3A;
+margin-left: 20px;
 }
 
 .overlay-content{
@@ -62,4 +63,13 @@ font-weight: 500;
 font-size: 24px;
 color: #132F3A;
 margin-bottom: 600px;
+}
+
+.link:hover{
+color: rgb(208, 98, 162);
+}
+
+.active-link{
+  border-bottom: 2px solid #000000; /* Example underline color */
+  padding-bottom: 2px;
 }
