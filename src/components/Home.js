@@ -1,11 +1,12 @@
-
+import leaveimg from './images/leaveimg.jpeg'
 const Home = () => {
     return (
       <div className="container">
         <div className="background-image"> 
         
         <div className="overlay-image">
-          {/* Links, text, and icon links */}
+            <img className='leaveimg' src={leaveimg} />
+
         </div>
         </div>
 
