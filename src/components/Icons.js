@@ -15,7 +15,7 @@ const Icons = () => {
 
     return (
       // This is thw footer component
-        <div className="footer">
+        <div className="icons-container">
             <FaFacebook className='icon' onClick={handleFBClick} style={{ cursor: 'pointer' }} />
              <FaInstagram className='icon' onClick={handleIGClick} style={{ cursor: 'pointer' }} />
             <FaTwitter className='icon' onClick={handleTWClick} style={{ cursor: 'pointer' }} />

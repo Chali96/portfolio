@@ -1,5 +1,6 @@
 import leaveimg from './images/leaveimg.jpeg';
 import { Link, useLocation } from 'react-router-dom';
+import Icons from './Icons';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <img className='leaveimg' src={leaveimg}   />
             <h2 className='info'>
                 HELLO! I'M CHALI MOHAMEDSANI, A WEB DEVELOPER STUDENT BASED IN STOCKHOLM.
+              <Icons/>
             </h2>
 
             <div className="overlay-content">
