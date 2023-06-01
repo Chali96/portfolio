@@ -10,9 +10,9 @@ const Home = () => {
         <div className="background-image"> 
         
         <div className="overlay-image">
-            <img className='leaveimg' src={leaveimg} />
+            <img className='leaveimg' src={leaveimg}   />
             <h2 className='info'>
-            Hello! I’m Chali Mohamedsani, a web developer student based in Stockholm.
+                HELLO! I'M CHALI MOHAMEDSANI, A WEB DEVELOPER STUDENT BASED IN STOCKHOLM.
             </h2>
 
             <div className="overlay-content">
