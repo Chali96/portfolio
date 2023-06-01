@@ -25,11 +25,16 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0p
 border-radius: 30px;
 }
 
-.leaveimg{
-  width: 368px;
+.leaveimg, .leave2{
+  width: 338px;
 height: 663px;
 border: 1px solid rgba(0, 0, 0, 0.2);
 border-radius: 30px;
+opacity: 1;
+transition: .9s ease-in-out;}
+
+.leaveimg:hover, .leave2:hover{
+	opacity: .5;
 }
 
 .info{
@@ -61,18 +66,20 @@ text-decoration: none;
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 22px;
 color: #132F3A;
 margin-bottom: 600px;
 }
 
 .link:hover{
-color: rgb(208, 98, 162);
+  color: rgb(209, 47, 174);
 }
 
 .active-link{
-  border-bottom: 2px solid #000000; /* Example underline color */
+  border-bottom: 2px solid rgb(209, 47, 174); /* Example underline color */
   padding-bottom: 2px;
+  color: rgb(209, 47, 174);
+  font-size: 26px;
 }
 
 .icon{
